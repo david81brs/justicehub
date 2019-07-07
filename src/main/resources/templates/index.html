@@ -3,17 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Pegasus</title>
-    <link rel="stylesheet"
-          href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="/webjars/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" th:href="@{css/main.css}" href="css/main.css"/>
     <script src="/webjars/jquery/3.1.1/jquery.min.js"></script>
     <script src="/webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="fontawesome-free-5.9.0/css/all.min.css"/>
+    <link rel="stylesheet" href="/css/fontawesome-free-5.9.0/css/all.min.css"/>
 </head>
 <body>
     <div th:replace="navigation :: navigation"></div>
-<div class="container">
+<div class="container mainc">
     <h1><i class="fas fa-home"></i> Indicadores</h1>
     <span>
         <i class="fas fa-code"></i>

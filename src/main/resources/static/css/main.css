@@ -9,6 +9,7 @@
     font-size:12pt;
     text-align:center;
     box-shadow: 10px 10px 5px gray;
+    vertical-align: middle;
 
 }
 
@@ -16,9 +17,17 @@
     margin-top:50px;
 }
 
-h1 {
+.mainc {
+
     color:green;
-    box-shadow: 5px 5px 2px gray;
-    margin-top:20px;
+    box-shadow: 15px 15px 10px gray;
     margin-bottom:20px;
+    padding: 15px;
+}
+
+.logingbox {
+    margin-top:50px;
+    box-shadow: 5px 5px 2px grey;
+    padding:15px;
+
 }
