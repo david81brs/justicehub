@@ -60,6 +60,7 @@
 			<groupId>org.webjars</groupId>
 			<artifactId>webjars-locator-core</artifactId>
 		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.webjars/popper.js -->
 		<dependency>
 			<groupId>org.webjars</groupId>
